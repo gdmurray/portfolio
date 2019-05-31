@@ -169,8 +169,8 @@ ul.tools li:before{
 }
 
 .project__info p{
-  font-size: 1.1rem;
-  line-height: 1.5rem;
+  font-size: 1.2rem !important;
+  line-height: 1.5rem !important;
 }
 .project__image img{
   border-radius: 5px;
@@ -196,7 +196,8 @@ ul.tools li:before{
   display: grid !important;
 }
 .gradient.cr{
-  background: linear-gradient(#fa709a,#fee140);
+  /*background: linear-gradient(#fa709a,#fee140);*/
+  background-image: linear-gradient(to top, #a3bded 0%, #6991c7 100%);
 }
 
 .gradient.lot{

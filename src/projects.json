@@ -1,0 +1,19 @@
+[
+    {
+        "code": "cr",
+        "title": "Collective Reports",
+        "image": "",
+        "content": [
+            "Lead developer of financial management and employee accountability software solution Collective Reports, built in collaboration with Sheppard Village Dental.The software is currently in use across various Dental Practices in Canada. \\n
+            The software has had 3 major iterations while I was learning how to develop and \
+            deploy large scale web applications.",
+            "Built using the Python framework Django and hosted on a PostgreSQL Database. \
+            Prototyped and built frontend using HTML, Bootstrap, CSS, JQuery, and AngularJS. \
+            Hosted on AWS RDS and Heroku, version controlled through Github."
+        ],
+        "items": [
+            "Django", "PostgreSQL", "Heroku", "AngularJS", "Git/Github", "Staging Pipeline", "Elasticsearch"
+        ],
+        "itemClass": "tools"
+    }
+]
