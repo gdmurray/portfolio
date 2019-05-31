@@ -277,6 +277,8 @@ render()
                     <li>Docker</li>
                     <li>Docker Swarm</li>
                     <li>Keras</li>
+                    <li>Jenkins</li>
+                    <li>nginx</li>
                     <li>Ansible</li>
                     <li>CircleCI</li>
                     <li>Git/Github</li>
