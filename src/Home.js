@@ -182,7 +182,7 @@ render()
                         <AnchorLink href='#projects'> Projects </AnchorLink>
                     </li>
                     <li>
-                        <a href="https://drive.google.com/file/d/1lZA18rNPUvPl7LdTJVkTyVS1045Prqqm/view?usp=sharing"
+                        <a href="https://drive.google.com/file/d/1LWWcUZ05P1whhENzkBhuvEHXzid-FtXr/view?usp=sharing"
                         target="_blank"
                         > Resume </a>
                     </li>
