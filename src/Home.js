@@ -280,6 +280,8 @@ render()
                     <li>CircleCI</li>
                     <li>Git/Github</li>
                     <li>Adobe Xd</li>
+                    <li>Supervisor</li>
+                    <li>JIRA</li>
                 </ul>
                 <Header id="projects" style={{paddingTop: '8rem'}} className="huge section-header" textAlign="center">
                     Projects

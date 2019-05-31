@@ -167,7 +167,7 @@
 .my-image{
   float: left;
   width: 50%;
-  max-width: 150px;
+  max-width: 200px !important;
   margin-right: 0.5rem;
 }
 .header_underline{
