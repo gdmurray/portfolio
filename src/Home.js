@@ -241,9 +241,10 @@ render()
                     <li>Python</li>
                     <li>Java</li>
                     <li>Javascript</li>
+                    <li>Swift</li>
                     <li>HTML5/CSS3</li>
                     <li>SQL</li>
-                    <li>C++</li>
+                    <li>C/C++</li>
                     <li>PHP</li>
                 </ul>
                 <Header as="h3">
