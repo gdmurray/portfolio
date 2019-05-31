@@ -131,16 +131,16 @@ renderItemLists(content)
 {
     var l = [];
     for (var i in content) {
-        l.push(<li>{content[i]}</li>);
+        l.push(<li key={i + '-' + content[i]}>{content[i]}</li>);
     }
     return l;
 }
 
-renderContent(content)
+renderContent(project)
 {
     var l = [];
-    for (var c in content) {
-        l.push(<p>{content[c]}</p>);
+    for (var c in project.content) {
+        l.push(<p key={project.code + '-' + c}>{project.content[c]}</p>);
     }
     return l;
 }
@@ -151,16 +151,15 @@ renderProjects()
     const {content} = this.state
     for (var p in content) {
         var project = content[p];
-        console.log(project);
         projects.push(
-            <Container className={"gradient " + project.code}>
+            <Container className={"gradient " + project.code} key={"container-"+project.code}>
                 <div className="project">
                     <a className="project__image" href={project.link} target="_blank">
                         <img width={400} src={process.env.PUBLIC_URL + "/" + project.image}/>
                     </a>
                     <div className="project__info">
                         <Header as='h2' content={project.title}/>
-                        {this.renderContent(project.content)}
+                        {this.renderContent(project)}
                         <ul className={"item-list " + project.itemClass}>
                             {this.renderItemLists(project.items)}
                         </ul>
@@ -295,7 +294,7 @@ render()
             </Container>
             {this.renderProjects()}
             <footer id="contact" className="footer">
-                <Header as="h2" content="Contact" centered/>
+                <Header as="h2" content="Contact" className="centered"/>
                 <ul className="contact-list">
                     <li>
                         <a href="mailto:gd-murray@hotmail.com" >
