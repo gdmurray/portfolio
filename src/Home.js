@@ -197,7 +197,7 @@ render()
             </nav>
             <Container textAlign='center' className="intro-section">
                 <Header as='h1' textAlign='center'>
-                    Hi, My Name is Greg Murray
+                    Hi, I'm Greg Murray
                 </Header>
             </Container>
 
@@ -208,29 +208,23 @@ render()
                 onClick={e => this.setState({flipped: !this.state.flipped})}>
                     <Card.Header as="h4">Full Stack Software Engineer</Card.Header>
                         <Card.Description>
-                            I am a 4th year Business and Computer Science student
+                            <p>I am a 4th year Business and Computer Science student
                             at Wilfrid Laurier University and I am currently seeking opportunities for an internship
                             in Software Engineering for the <span>Fall 2019 Term. </span>
-                            My experience ranges from school projects to full production environments.
+                            My experience ranges from school projects to full production environments.</p>
                         </Card.Description>
                 </Card>
                 <Card fluid centered className={this.state.cardHover ? "intro-card raised" : "intro-card"}
                 onMouseEnter={this.handleHover} onMouseLeave={this.handleHover}
                 onClick={e => this.setState({flipped: !this.state.flipped})}>
                     <Card.Header as="h4">About Me</Card.Header>
+                    <Card.Description>
+                        <Image className="my-image" src={process.env.PUBLIC_URL + "/me.jpg"} />
+                        Born and raised in Toronto 🇨🇦, I have spent most of my life with a passion 
+                        for tech and all things nerdy. My hobbies include outdoor activies like hiking, climbing, biking,
+                        and skiing. I am currently living in Waterloo, Ontario, where I will be finishing both degrees in August of 2020.
+                    </Card.Description>
                     
-                    <Grid columns={2} divided>
-                        <Grid.Row className="about-me">
-                            <Grid.Column>
-                                <Image src={process.env.PUBLIC_URL + "/me.jpg"} />
-                            </Grid.Column>
-                            <Grid.Column className="description">
-                                Born and raised in Toronto 🇨🇦, I have spent most of my life with a passion 
-                                for tech and all things nerdy. My hobbies include outdoor activies like hiking, climbing, biking,
-                                and skiing. I am currently living in Waterloo, Ontario, where I will be finishing my degree in August of 2020.
-                            </Grid.Column>
-                        </Grid.Row>
-                    </Grid>
                 </Card>
                 </Flipcard>
             </Container>

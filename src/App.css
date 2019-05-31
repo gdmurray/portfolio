@@ -22,7 +22,9 @@
 .App-link {
   color: #61dafb;
 }
-
+#root{
+  display: grid;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -41,7 +43,46 @@
   justify-self: center;
   font-size: 1.2rem;
 }
+.nav li{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
+}
+@media only screen and (min-width: 768px) {
+  .intro-card {
+      padding-left:3.45rem;
+      padding-right: 3.45rem
+  }
+
+  .nav__image{
+      top: -5vh !important;
+      width: 125vw !important;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .intro-card {
+      padding-left:3.45rem;
+      padding-right: 3.45rem
+  }
+
+  .nav__image {
+      width: 100vw !important;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .nav__image{
+      top:-5vh !important;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .nav__image{
+      top:-20vh !important;
+  }
+}
+
 .nav{
   display: grid;
   grid-template-columns: repeat(4,1fr);
@@ -55,8 +96,6 @@
   list-style: none;
   font-size: 1.1rem;
   line-height: 1.5rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
   
 }
 
@@ -92,7 +131,7 @@
 }
 
 .intro-section{
-  padding-top: 2rem;
+  padding-top: 1rem;
   margin-bottom: 4rem;
 }
 
@@ -111,15 +150,26 @@
 .intro-card .description{
   color: #6c80a4;
   letter-spacing: .2px;
-  max-width: 500px;
   line-height: 1.5rem;
   font-weight: 600;
+  width: 100%;
+}
+
+.intro-card .description p{
+  max-width: 500px;
+  display: inline-block;
 }
 
 .intro-card .description span {
   color: #4D4F5C;
 }
 
+.my-image{
+  float: left;
+  width: 50%;
+  max-width: 150px;
+  margin-right: 0.5rem;
+}
 .header_underline{
   border: 0;
   border-top: 2px solid #09f;
@@ -153,7 +203,7 @@
 }
 
 .card-container{
-  margin-bottom: 6rem;
+  margin-bottom: 10rem;
 }
 
 .item-list {
