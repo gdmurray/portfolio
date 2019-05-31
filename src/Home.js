@@ -301,6 +301,11 @@ render()
                         </a>
                     </li>
                     <li>
+                        <a href="tel:1-416-795-0927">
+                            <Icon name="phone" />  (416)-795-0927
+                        </a>
+                    </li>
+                    <li>
                         <a href="https://www.linkedin.com/in/gregmurray6640/" target="_blank" >
                             <Icon name="linkedin" />  Greg Murray
                         </a>
