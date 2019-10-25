@@ -211,10 +211,8 @@ render()
                 onClick={e => this.setState({flipped: !this.state.flipped})}>
                     <Card.Header as="h4">Full Stack Software Engineer</Card.Header>
                         <Card.Description>
-                            <p>I am a 4th year Business and Computer Science student
-                            at Wilfrid Laurier University and I am currently seeking opportunities for an internship
-                            in Software Engineering for the <span>Fall 2019 Term. </span>
-                            My experience ranges from school projects to full production environments.</p>
+                            <p>I am a 5th year Business and Computer Science Double Dgstudent
+                            at Wilfrid Laurier University. My experience ranges from school projects to full production environments.</p>
                         </Card.Description>
                 </Card>
                 <Card fluid centered className={this.state.cardHover ? "intro-card raised" : "intro-card"}
@@ -244,6 +242,8 @@ render()
                     <li>Python</li>
                     <li>Java</li>
                     <li>Javascript</li>
+                    <li>Typescript</li>
+                    <li>Go</li>
                     <li>Swift</li>
                     <li>HTML5/CSS3</li>
                     <li>SQL</li>
