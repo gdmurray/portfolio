@@ -211,7 +211,7 @@ render()
                 onClick={e => this.setState({flipped: !this.state.flipped})}>
                     <Card.Header as="h4">Full Stack Software Engineer</Card.Header>
                         <Card.Description>
-                            <p>I am a 5th year Business and Computer Science Double Dgstudent
+                            <p>I am a 5th year Business and Computer Science Double Degree student
                             at Wilfrid Laurier University. My experience ranges from school projects to full production environments.</p>
                         </Card.Description>
                 </Card>
