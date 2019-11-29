@@ -240,10 +240,9 @@ render()
                 </Header>
                 <ul className="item-list languages main">
                     <li>Python</li>
-                    <li>Java</li>
                     <li>Javascript</li>
-                    <li>Typescript</li>
                     <li>Go</li>
+                    <li>Java</li>
                     <li>Swift</li>
                     <li>HTML5/CSS3</li>
                     <li>SQL</li>
@@ -257,6 +256,7 @@ render()
                     <li>Django</li>
                     <li>Flask</li>
                     <li>React</li>
+                    <li>Redux</li>
                     <li>Angular</li>
                     <li>Wordpress</li>
                 </ul>
