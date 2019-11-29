@@ -280,6 +280,8 @@ render()
                     <li>Docker</li>
                     <li>Docker Swarm</li>
                     <li>Keras</li>
+                    <li>Tensorflow</li>
+                    <li>OpenCV</li>
                     <li>Jenkins</li>
                     <li>Nginx</li>
                     <li>Ansible</li>
