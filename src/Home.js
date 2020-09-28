@@ -185,11 +185,6 @@ render()
                         <AnchorLink href='#projects'> Projects </AnchorLink>
                     </li>
                     <li>
-                        <a href="https://drive.google.com/file/d/1c0hZs16og5ioPoSYOa93YGDOKHonTFzw/view?usp=sharing"
-                        target="_blank"
-                        > Resume </a>
-                    </li>
-                    <li>
                         <a href="https://github.com/gdmurray" target="_blank" > Github </a>
                     </li>
                     <li>
